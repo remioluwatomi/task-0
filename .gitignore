@@ -1,0 +1,17 @@
+
+*.pyc
+__pycache__/
+
+
+venv/
+
+
+.env
+.flaskenv
+
+
+*.log
+
+
+.vscode/
+.idea/
