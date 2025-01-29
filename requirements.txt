@@ -19,11 +19,13 @@ exceptiongroup==1.0.4
 Flask==2.2.2
 Flask-Bootstrap==3.3.7.1
 Flask-CKEditor==0.4.6
+Flask-Cors==5.0.0
 Flask-Gravatar==0.5.0
 Flask-Login==0.6.2
 Flask-Mail==0.9.1
 Flask-RESTful==0.3.9
 Flask-SQLAlchemy==3.0.2
+flask-swagger-ui==4.11.1
 Flask-WTF==1.0.1
 greenlet==2.0.1
 h11==0.14.0
