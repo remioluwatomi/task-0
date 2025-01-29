@@ -1,0 +1,37 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Information Retrieval API",
+    "description": "A public API that returns some of my information and current ISO 8601 timestamp in JSON format.",
+    "version": "1.0.0"
+  },
+  "backlinks": {
+    "description": "Back Links",
+    "hng_python": "https://hng.tech/hire/python-developers",
+    "hng_csharp": "https://hng.tech/hire/csharp-developers",
+    "hng_php": "https://hng.tech/hire/php-developers",
+    "hng_golang": "https://hng.tech/hire/golang-developers",
+    "hng_java": "https://hng.tech/hire/java-developers",
+    "hng_nodejs": "https://hng.tech/hire/nodejs-developers"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "Accepts GET request and returns the required JSON response.",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "email": { "type": "string" },
+                "current_datetime": { "type": "string", "format": "date-time" },
+                "github_url": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
